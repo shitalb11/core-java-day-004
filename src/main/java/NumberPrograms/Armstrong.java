@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Armstrong {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Number");
+        int num = scanner.nextInt();
 
         int temp = num, sum = 0;
         int digits = String.valueOf(num).length();
@@ -16,7 +17,7 @@ public class Armstrong {
             num = num / 10;
         }
 
-        if (sum == temp)
+        if (sum==temp)
             System.out.println("Armstrong Number");
         else
             System.out.println("Not an Armstrong Number");

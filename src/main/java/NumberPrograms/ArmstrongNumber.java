@@ -2,7 +2,7 @@ package NumberPrograms;
 
 import java.util.Scanner;
 
-public class Armstrong {
+public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Number");
@@ -18,8 +18,8 @@ public class Armstrong {
         }
 
         if (sum==temp)
-            System.out.println("Armstrong Number");
+            System.out.println("ArmstrongNumber Number");
         else
-            System.out.println("Not an Armstrong Number");
+            System.out.println("Not an ArmstrongNumber Number");
     }
 }

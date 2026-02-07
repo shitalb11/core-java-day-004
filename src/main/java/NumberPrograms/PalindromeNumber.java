@@ -2,7 +2,7 @@ package NumberPrograms;
 
 import java.util.Scanner;
 
-public class Palindrome {
+public class PalindromeNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Number");
@@ -18,8 +18,8 @@ public class Palindrome {
         }
 
         if(temp==rev)
-            System.out.println("Palindrome Number");
+            System.out.println("PalindromeNumber Number");
         else
-            System.out.println("Not a Palindrome Number");
+            System.out.println("Not a PalindromeNumber Number");
     }
 }

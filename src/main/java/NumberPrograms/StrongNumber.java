@@ -28,3 +28,6 @@ class StrongNumber {
             System.out.println("Not a Strong Number");
     }
 }
+
+// daily practice commit
+
